@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="Produkt Scannen"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:layout_marginLeft="20dp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Eingabe"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+
+    <TextView
+        android:id="@+id/inp"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="283dp"
+        android:layout_height="238dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/ZuckerA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ZuckerZ"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/KalA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/KalZ"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ProteinA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ProteinZ"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/FettA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/FettZ"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20dp" />
+
+
+
+</RelativeLayout>

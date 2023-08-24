@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Optionen">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produkt Eingeben"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="284dp"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produkt Scannen"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="220dp"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zuletzt gescannt"
+        android:layout_marginTop="80dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ListView
+        android:id="@+id/Liste5"
+        android:layout_width="407dp"
+        android:layout_height="1000dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintTop_toBottomOf="@+id/Input"
+        tools:layout_editor_absoluteX="-2dp"
+        />
+</RelativeLayout>
